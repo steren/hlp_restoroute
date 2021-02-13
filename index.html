@@ -6,8 +6,10 @@ var hlv = HLViewer.init('#hlv-target', {
   paths: {
     base:    '/',
     maps:    'res/maps',
-    wads:    'res/wads',
+    wads:    'res/textures',
+    skies:   'res/skies',
   }
 })
-hlv.load('hlp_restoroute.bsp')
 </script>
+
+<button onclick="hlv.load('hlp_restoroute.bsp')">hlp_restoroute</button>
